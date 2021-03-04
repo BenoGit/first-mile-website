@@ -1,11 +1,13 @@
 body {
-    background: url(abstractbackground.jpg);
+    background-image: url(abstractbackground.jpg);
     background-size: cover;
     background-attachment: fixed;
    
 }
 
-*{text-align: center;}
+*{text-align: center}
+*{font-family: Georgia, 'Times New Roman', Times, serif;}
+*{font-weight: normal;}
 
 h1 {
     color: white; 
@@ -16,7 +18,7 @@ h1 {
     background: #000000;
     padding: 10px; 
     width: 600px;
-    height: 112px; 
+    height: 112px;  
 }
 
 h3 { 
@@ -47,13 +49,13 @@ h2 {
 h4 { 
     color: white; 
     margin:auto;
-    margin-top: 30px;
+    margin-top: 0px;
     border-radius: 25px;
     vertical-align: middle;
     background: #000000;
     padding: 10px; 
     width: 350px;
-    height: 95px; 
+    height: 65px; 
     
 }
 
@@ -65,7 +67,7 @@ h5 {
     vertical-align: middle;
     background: #000000;
     padding: 10px; 
-    width: 170px;
+    width: 250px;
     height: 189px; 
     
 }
@@ -92,7 +94,9 @@ iframe {
 }
 
 #contactMe {
+    color: white; 
     margin:auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     margin-top: 30px; 
     border-radius: 300px;
     vertical-align: middle;

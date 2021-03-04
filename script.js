@@ -1,7 +1,4 @@
-function emailalert(){
-    window.alert('Thanks for contacting')
-}
+function changeBackground(){
+    document.getElementsByTagName('body')[0].style.backgroundImage = "url('invertedabstractbackground.jpg')";
+};
 
-const contactMe = document.getElementById(contactMe);
-
-contactMe.onclick = emailalert()
