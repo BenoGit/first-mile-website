@@ -1,11 +1,13 @@
 body {
     background-color: aqua;
+     text-align: center;
 }
 
 h1 {
     color: white;
+    
 }
 
 h2 { 
-    color: white;
+    color: white; 
 }
